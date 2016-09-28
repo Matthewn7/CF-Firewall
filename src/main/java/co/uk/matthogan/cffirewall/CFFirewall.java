@@ -20,7 +20,7 @@ public class CFFirewall {
 
     static {
         CF_IPV4_URL = "https://www.cloudflare.com/ips-v4/";
-        FIREWALL_CMD  =  "iptables -I INPUT -p tcp -m multiport --dports 80,443 -s %s -j ACCEPT -m comment --comment \"CloudFlare IP\"";
+        FIREWALL_CMD = "iptables -I INPUT -p tcp -m multiport --dports 80,443 -s %s -j ACCEPT -m comment --comment \"CloudFlare IP\"";
     }
 
     /**
