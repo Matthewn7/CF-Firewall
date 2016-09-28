@@ -1,6 +1,6 @@
 # CF-Firewall
 
-Add the latest CloudFlare IPv4 ranges to your firewall.
+Add the latest CloudFlare IPv4 & IPv6 ranges to your firewall.
 
 This program <b>does not</b> add the drop rules! You will need to drop traffic to port 80 and 443 yourself, for example:<br>
 
