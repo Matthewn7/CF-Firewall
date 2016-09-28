@@ -7,6 +7,12 @@ This program <b>does not</b> add the drop rules!! You will need to drop traffic 
 IPv4 `iptables -A INPUT -p tcp -m multiport --dports 80,443 -j DROP -m comment --comment "DROP HTTP/S"`<br>
 IPv6 `ip6tables -A INPUT -p tcp -m multiport --dports 80,443 -j DROP -m comment --comment "DROP HTTP/S"`
 
+### Usage
+
+I made the commands as simple as possible:
+
+`java -jar cfffirewall-1.0-SNAPSHOT.jar <ipv4|ipv6>`
+
 ### Dependancies
 
 * [Jsoup](https://jsoup.org/) - [(Maven)](https://mvnrepository.com/artifact/org.jsoup/jsoup/1.8.3)
