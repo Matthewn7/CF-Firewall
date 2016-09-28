@@ -11,14 +11,14 @@ IPv6 `ip6tables -A INPUT -p tcp -m multiport --dports 80,443 -j DROP -m comment 
 
 I made the commands as simple as possible:
 
-`java -jar cffirewall-1.0-SNAPSHOT.jar <ipv4|ipv6>`
+`java -jar cffirewall-1.1-SNAPSHOT.jar <ipv4|ipv6>`
 
 ### Dependancies
 
 * [Jsoup](https://jsoup.org/) - [(Maven)](https://mvnrepository.com/artifact/org.jsoup/jsoup/1.8.3)
 
 <i>All non-native dependancies are shaded when you build the project.</i><br>
-<i>[Shaded JAR Download](https://github.com/Matthewn7/CF-Firewall/releases/tag/1.0-SNAPSHOT)</i>
+<i>[Shaded JAR Download](https://github.com/Matthewn7/CF-Firewall/releases/tag/1.1-SNAPSHOT)</i>
 
 ### Building
 
