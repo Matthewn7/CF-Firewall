@@ -15,3 +15,7 @@ This program <b>does not</b> add the drop rules!! You will need to drop traffic 
 ### Building
 
 You will need to install [Apache Maven](https://maven.apache.org/) to build this project. You can use the `build.sh` script to build <i>and</i> run this software, the script will also create a bin directory in the project root, inside will be the compiled jar. Alternatively, if you wish to just build the project without running it: `mvn clean install`
+
+### TODO
+
+* CloudFlare IPv6 firewall rules
