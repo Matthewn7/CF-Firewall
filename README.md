@@ -9,7 +9,7 @@ This program <b>does not</b> add the drop rules!! You will need to block traffic
 
 <i>All non-native dependancies are shaded.</i>
 
-* Jsoup
+* [Jsoup](https://jsoup.org/) [(Maven)](https://mvnrepository.com/artifact/org.jsoup/jsoup/1.8.3)
 
 ### Building
 
