@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  * CF-Firewall
- * Add the latest CloudFlare IP ranges to your IPTables firewall
+ * Add the latest CloudFlare IPv4 ranges to your firewall
  *
  * @author Matthew Hogan
  */
@@ -30,10 +30,10 @@ public class CFFirewall {
 
         // Download the latest IP ranges from the CloudFlare provided page
         Scanner scanner = new Scanner(new URL(CF_IPV4_URL).openStream(), "UTF-8").useDelimiter("A");
-        String text = Jsoup.parse(scanner.next()).body().text();
+        String ipRanges = Jsoup.parse(scanner.next()).body().text();
         scanner.close();
 
-        for (String ipRange : text.split("\\r?\\n")) {
+        for (String ipRange : ipRanges.split("\\r?\\n")) {
 
             String command = String.format(Locale.ENGLISH, FIREWALL_CMD, ipRange);
             Runtime.getRuntime().exec(new String[]{"/bin/sh", "-c", command});
