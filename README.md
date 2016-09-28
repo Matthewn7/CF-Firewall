@@ -13,4 +13,4 @@ This program <b>does not</b> add the drop rules!! You will need to block traffic
 
 ### Building
 
-You can use the `build.sh` script to build <i>and</i> run this software. Alternatively, if you wish to just build the project without running it: `mvn clean install`
+You will need to install [Apache Maven](https://maven.apache.org/) to build this project. You can use the `build.sh` script to build <i>and</i> run this software. Alternatively, if you wish to just build the project without running it: `mvn clean install`
