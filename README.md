@@ -3,7 +3,8 @@
 Add the latest CloudFlare IPv4 ranges to your firewall.
 
 This program <b>does not</b> add the drop rules!! You will need to drop traffic to port 80 and 443 yourself, for example:<br>
-`iptables -A INPUT -p tcp -m multiport --dports 80,443 -j DROP -m comment --comment "DROP HTTP/S"`
+IPv4 `iptables -A INPUT -p tcp -m multiport --dports 80,443 -j DROP -m comment --comment "DROP HTTP/S"`
+IPv6 `ip6tables -A INPUT -p tcp -m multiport --dports 80,443 -j DROP -m comment --comment "DROP HTTP/S"`
 
 ### Dependancies
 
