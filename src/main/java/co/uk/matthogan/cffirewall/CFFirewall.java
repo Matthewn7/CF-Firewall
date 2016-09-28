@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  * CF-Firewall
- * Add the latest CloudFlare IPv4 ranges to your firewall
+ * Add the latest CloudFlare IPv4 & IPv6 ranges to your firewall
  *
  * @author Matthew Hogan
  */
