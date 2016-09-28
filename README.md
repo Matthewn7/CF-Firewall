@@ -7,10 +7,10 @@ This program <b>does not</b> add the drop rules!! You will need to block traffic
 
 ### Dependancies
 
-<i>All non-native dependancies are shaded</i>
+<i>All non-native dependancies are shaded.</i>
 
 * Jsoup
 
 ### Building
 
-You can use the `build.sh` script to build <i>and</i> run this software. Alternatively, if you wish to just build the project without running it: `mvn clean install`. 
+You can use the `build.sh` script to build <i>and</i> run this software. Alternatively, if you wish to just build the project without running it: `mvn clean install`
