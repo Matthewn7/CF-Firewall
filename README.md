@@ -17,7 +17,3 @@ IPv6 `ip6tables -A INPUT -p tcp -m multiport --dports 80,443 -j DROP -m comment 
 ### Building
 
 You will need to install [Apache Maven](https://maven.apache.org/) to build this project. You can use the `build.sh` script to build <i>and</i> run this software, the script will also create a bin directory in the project root, inside will be the compiled jar. Alternatively, if you wish to just build the project without running it: `mvn clean install`
-
-### TODO
-
-* CloudFlare IPv6 firewall rules
