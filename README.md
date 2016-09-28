@@ -7,7 +7,8 @@ This program <b>does not</b> add the drop rules!! You will need to drop traffic 
 
 ### Dependancies
 
-<i>All non-native dependancies are shaded.</i>
+<i>All non-native dependancies are shaded when you build the project.</i>
+<i>[Shaded JAR Download](https://github.com/Matthewn7/CF-Firewall/releases/tag/1.0-SNAPSHOT)</i>
 
 * [Jsoup](https://jsoup.org/) - [(Maven)](https://mvnrepository.com/artifact/org.jsoup/jsoup/1.8.3)
 
