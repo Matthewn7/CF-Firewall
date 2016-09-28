@@ -11,7 +11,7 @@ IPv6 `ip6tables -A INPUT -p tcp -m multiport --dports 80,443 -j DROP -m comment 
 
 I made the commands as simple as possible:
 
-`java -jar cfffirewall-1.0-SNAPSHOT.jar <ipv4|ipv6>`
+`java -jar cffirewall-1.0-SNAPSHOT.jar <ipv4|ipv6>`
 
 ### Dependancies
 
