@@ -1,6 +1,6 @@
 # CF-Firewall
 
-<b>Apparently this is totally broken on some Linux distros ¯\_(ツ)_/¯</b>
+<b>Apparently this is totally broken on some Linux distros</b>  ¯\_(ツ)_/¯
 
 
 Add the latest CloudFlare IPv4 & IPv6 ranges to your firewall.
