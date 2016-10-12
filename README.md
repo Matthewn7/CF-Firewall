@@ -1,5 +1,8 @@
 # CF-Firewall
 
+<b>Apparently this is totally broken on some Linux distros ¯\_(ツ)_/¯</b>
+
+
 Add the latest CloudFlare IPv4 & IPv6 ranges to your firewall.
 
 This <b>does not</b> add the drop rules! You will need to drop traffic to port 80 and 443 yourself, for example:<br>
