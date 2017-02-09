@@ -1,8 +1,5 @@
 # CF-Firewall
 
-<b>Apparently this is totally broken on some Linux distros</b>  ¯\_(ツ)_/¯
-
-
 Add the latest CloudFlare IPv4 & IPv6 ranges to your firewall.
 
 This <b>does not</b> add the drop rules! You will need to drop traffic to port 80 and 443 yourself, for example:<br>
@@ -15,6 +12,10 @@ IPv6 `ip6tables -A INPUT -p tcp -m multiport --dports 80,443 -j DROP -m comment 
 I made the commands as simple as possible:
 
 `java -jar cffirewall*.jar <ipv4|ipv6>`
+
+The JAR is easily downloadable with Wget:
+
+`wget https://github.com/Matthewn7/CF-Firewall/releases/download/1.2/cffirewall-1.2.jar`
 
 ### Dependancies
 
