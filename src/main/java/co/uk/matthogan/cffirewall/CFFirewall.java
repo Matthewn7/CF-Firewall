@@ -44,7 +44,7 @@ public class CFFirewall {
         String ipRanges = Jsoup.parse(scanner.next()).body().text();
         scanner.close();
 
-        for (String ipRange : ipRanges.split("\\r?\\n")) {
+        for (String ipRange : ipRanges.split(" ")) {
 
             String formattedCommand = String.format(Locale.ENGLISH, FIREWALL_CMD, ipRange);
             String command = (ipv4 ? formattedCommand : formattedCommand.replace("iptables", "ip6tables"));
